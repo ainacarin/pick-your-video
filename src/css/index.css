@@ -1,0 +1,51 @@
+.main-container {
+/*     max-width: var(--content-max-width); */
+position: absolute;
+    height: 100vh;
+    padding-top: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--primary-color);
+    
+/*     color: var(--light-color); */
+}
+
+.sesion-container,
+.register-container {
+    max-width: var(--content-max-width-mobile);
+    width: var(--content-max-width-mobile);
+    background-color: var(--light-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.sesion-container > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 0.1rem solid var(--primary-color);
+}
+.action-container,
+.register-container,
+.action-form {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.data-form,
+.action-form > input {
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.action-form > input{
+    font-size: 1.1rem;
+    background-color: var(--mid-color) ;
+    border: none;
+    border-radius: 1rem;
+}
+

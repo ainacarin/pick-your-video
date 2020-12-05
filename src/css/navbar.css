@@ -1,0 +1,21 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: var(--navbar-height);
+    z-index: 99;
+    background-color: whitesmoke;
+}
+
+.wrap-logo {
+    text-align: center;
+    max-height: var(--navbar-height);
+}
+
+.logo {
+    font-family: cinema-text;
+    font-size: 1.25rem;
+
+    line-height: var(--navbar-height);
+}

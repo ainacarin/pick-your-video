@@ -1,0 +1,16 @@
+@font-face {
+    font-family: cinema-text;
+    src: url('../fonts/cinema-text.ttf');
+  }
+
+:root {
+    --font-size: 16px;
+    --primary-color: #202020;
+    --mid-color: rgb(177, 174, 174);
+    --light-color: whitesmoke;
+  
+    --navbar-height: 4rem;
+
+    --content-max-width: 800px;
+    --content-max-width-mobile: 200px;
+}
