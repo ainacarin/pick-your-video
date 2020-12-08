@@ -1,0 +1,56 @@
+
+ 
+ .main-grid {
+    padding: 0;
+    margin:0;
+    width: 100%;
+
+    color: white;
+
+    background-color: darkgray;
+
+    overflow: hidden;
+}
+
+
+.section-grid {
+    padding-left: 2rem; 
+}
+
+.title-list-grid {
+    font-size: 1.25rem;
+}
+
+
+.list-grid {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    overflow-x:auto; 
+    overflow-y:hidden;
+    scroll-behavior: smooth;
+    box-shadow:0 0 10px black inset;
+}
+
+.item-list {
+    display: inline-block;
+    box-shadow:0 0 10px black inset;
+    border-radius: 1rem;
+    margin: 0.1rem;
+}
+
+
+.item-list a {
+    display: block;
+    min-width: 14rem;
+    min-height: 10rem;
+}
+
+
+.item-list img {
+    width: 14rem;
+    height: 10rem;
+    object-fit: contain;
+    object-position: center center;
+    border-radius: 1rem;
+}
