@@ -33,6 +33,7 @@
 }
 
 .item-list {
+    position: relative;
     display: inline-block;
     box-shadow:0 0 10px black inset;
     border-radius: 1rem;
@@ -54,3 +55,13 @@
     object-position: center center;
     border-radius: 1rem;
 }
+
+/* FAV-ICON ACTIVITY */
+.fav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ 
+
