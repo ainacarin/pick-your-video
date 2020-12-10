@@ -1,0 +1,72 @@
+html,
+.main-container {
+    background-color: darkgray;
+}
+
+.main-container {
+    position: relative;
+    padding: 1rem;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    color: var(--primary-color);
+}
+
+.main-section div{
+    width: 100%;
+/*     object-fit: cover;
+    object-position: center center; */
+}
+
+.main-section div img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.title-video,
+.calif-video,
+.year-video,
+.actors-list-video,
+.actors-title-video,
+.summmary-video {
+    margin:0;
+    font-size: 1rem;
+}
+
+.title-video {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.calif-video {
+    
+}
+
+.year-video {
+
+}
+
+.actors-list-video {
+
+}
+
+.actors-title-video {
+
+}
+
+.actor-video {
+
+}
+
+.summmary-video {
+    
+}
+        
+.section-grid {
+   padding-left: 0;      
+}
