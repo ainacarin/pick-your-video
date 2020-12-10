@@ -69,19 +69,56 @@
     top:0;
     left:0;
     color:black;
-    overflow: visible;
     width:100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display:none;
 }
 
-.item-list a:hover + .card {
-display: inline-block;
-color: white;
-font-weight: bold;
+.video:hover .card {
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    color: white;
+    font-weight: bold;
+    /* overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis; */
 }
 
+.title-card,
+.calif-card,
+.year-card,
+.summary-card {
+    margin:0;
+    font-size: 1rem;
+}
+
+.title-card,
+.calif-card,
+.year-card {
+    padding-bottom: 0.1rem;
+    font-weight: bold;
+}
+
+.title-card {
+    text-transform: uppercase;
+}
+
+.calif-card,
+.year-card {
+    font-size: 0.75rem;
+}
+
+.summary-card {
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    font-weight: lighter;
+}
 
  
 
