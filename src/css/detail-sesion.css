@@ -85,3 +85,82 @@ html,
     border-top: 0.25rem solid var(--primary-color); 
 }
 
+@media all and (min-width: 480px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 70vh 30vh;
+        grid-template-areas: "main"
+                            "extra";
+    }
+
+    .main-section {
+        display: block;
+
+        grid-area: main;
+        display: grid;
+        grid-template-columns: 0.35fr 0.65fr;
+        grid-template-rows:  0.1fr 0.1fr 0.1fr 0.1fr 0.25fr 0.35fr;
+        grid-template-areas: "title pic"
+                            "calif pic"
+                            "year pic"
+                            "title-actors pic"
+                            "actors pic"
+                            "summary summary";
+    }
+
+    
+
+    .div-img-video {
+        grid-area: pic;
+        max-height: 100%;
+/* width: 100%;
+height: auto; */
+    }
+
+    .main-section div img{
+/*         width: 100%; */
+max-height: 100%;
+        object-fit: contain;
+     object-position: center center;
+    }
+
+    .title-video {
+        grid-area: title;
+        font-size: 3rem;
+    }
+
+    .calif-video {
+        grid-area:calif;
+        font-size:2rem;
+    }
+
+    .year-video {
+        grid-area: year;
+        font-size:2rem;
+    }
+
+    .actors-title-video {
+        grid-area: title-actors;
+        font-size:2rem;
+    }
+
+    .actors-list-video {
+        grid-area: actors;
+    }
+
+    .actor-video {
+        font-size:1.5rem;
+    }
+
+    .summmary-video,
+    .summmary-video span {
+        grid-area: summary;
+        font-size:2rem;
+    }
+
+
+    .section-grid {
+        grid-area: extra;
+    }
+}
