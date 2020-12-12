@@ -6,11 +6,12 @@
 :root {
     --font-size: 16px;
     --primary-color: #202020;
-    --mid-color: rgb(177, 174, 174);
+    --mid-color: rgb(194, 191, 191);
     --light-color: whitesmoke;
+    --back-color: rgba(244, 246, 247);
   
     --navbar-height: 4rem;
 
-    --content-max-width: 400px;
+    --content-max-width: 500px;
     --content-max-width-mobile: 225px;
 }
