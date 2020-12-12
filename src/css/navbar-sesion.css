@@ -148,13 +148,28 @@
 
 @media all and (min-width: 768px) {
 
+    .search-form {
+        position: absolute;
+        top: 0.9rem;
+        right: 3rem;
+        background: var(--light-color);
+        height: calc(var(--font-size)*2);
+    }
+    
+    .search-form:hover > .search-input {
+        width: calc(100vw - 20rem);
+        line-height: calc(var(--font-size)*2);
+        color: var(--primary-color);
+        top:0;
+    }
+
   .navbar {
       display: flex;
   }
   
   .wrap-logo {
     display: inline-block;
-    margin: 0 2rem;    
+    margin: 0 0 0 1.5rem;    
 }
 
 
