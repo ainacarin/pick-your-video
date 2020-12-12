@@ -97,20 +97,20 @@ html,
 
 @media all and (min-width: 768px) {
     .main-container {
-        display: grid;
+/*         display: grid;
         grid-template-columns: 100% ;
         grid-template-rows: 70vh 30vh;
         grid-template-areas: "main"
-                            "extra";
+                            "extra"; */
     }
 
     .main-section {
         display: block;
 
-        grid-area: main;
+/*         grid-area: main; */
         display: grid;
         grid-template-columns: 0.35fr 0.65fr;
-        grid-template-rows:  0.1fr 0.1fr 0.1fr 0.1fr 0.25fr 0.35fr;
+        grid-template-rows:  0.05fr 0.05fr 0.05fr 0.05fr 0.12fr 0.17fr;
         grid-template-areas: "title pic"
                             "calif pic"
                             "year pic"
@@ -128,49 +128,65 @@ html,
 height: auto; */
     }
 
-    .main-section div img{
+    .main-section div img {
 /*         width: 100%; */
-max-height: 100%;
+        max-height: 100%;
         object-fit: contain;
-     object-position: center center;
+        object-position: center center;
+        border-radius: 3rem;
     }
 
     .title-video {
         grid-area: title;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .calif-video {
         grid-area:calif;
-        font-size:2rem;
+        font-size:1.3rem;
+        margin-left: 1rem;
     }
 
     .year-video {
         grid-area: year;
-        font-size:2rem;
+        font-size: 1.3rem;
+        margin-left: 1rem;
     }
 
     .actors-title-video {
         grid-area: title-actors;
-        font-size:2rem;
+        font-size: 1.5rem;
+        margin-left: 1rem;
     }
 
     .actors-list-video {
         grid-area: actors;
+        margin-left: 1rem;
     }
 
     .actor-video {
-        font-size:1.5rem;
+        font-size:1.3rem;
+        margin-left: 1rem;
+    }
+
+
+    .summmary-video {
+        padding: 2rem;
+        padding-right: 3rem;
+        margin-left: 1rem;
     }
 
     .summmary-video,
     .summmary-video span {
         grid-area: summary;
-        font-size:2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
 
     .section-grid {
+/*         position: static;
         grid-area: extra;
+        bottom:0; */
     }
 }
