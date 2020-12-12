@@ -22,7 +22,7 @@
     justify-content: space-evenly;
 
     background-color: var(--light-color);
-    opacity: 80%;
+    opacity: 90%;
 }
 
 #hamburger-checkbox:checked ~ .hamburger-label:before {
@@ -80,6 +80,7 @@
 
     font-size: 2rem;
     color: var(--primary-color);
+    font-weight: bolder;
 }
 
 .search-container {
