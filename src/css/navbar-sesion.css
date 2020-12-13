@@ -32,9 +32,9 @@
     height: 0; /* Init icon menu mobile decoration */
 
     content: '<';
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
-    top: -1.25rem;
+    top: -1rem;
     color: var(--mid-color)
 }
 .hamburger-label {
