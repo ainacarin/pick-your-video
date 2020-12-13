@@ -69,11 +69,29 @@
     opacity: 80%;
 }
 
+.fav-control {
+    position: absolute;
+    display: block;
+    top: 7.5rem;
+    left: 11rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(../img/fav-icon-mario.png);
+    background-repeat: no-repeat;
+    background-size: 2.25rem 2.25rem;
+    border-radius: 1rem;
+    opacity: 0%;
+}
+
 .fav-checkbox {
     width: 1.1rem;
     height: 1.1rem;
 }
 
+.fav-checkbox:checked + div {
+    opacity: 100%;
+    border: 0.1rem solid yellow;
+}
 
 /* EXTRA INFORMATION CARD */
 .card {
